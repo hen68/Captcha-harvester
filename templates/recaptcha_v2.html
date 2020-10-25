@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script type='text/javascript' src='https://www.google.com/recaptcha/api.js' async defer></script>
+
+    <title>{{ domain }}</title>
+</head>
+<body>
+     <form method='POST'>
+            <div class='g-recaptcha' data-sitekey='{{ site_key }}' data-callback='submit'></div>
+<!--            <a class='btn btn-primary' href='http://{{ server_address }}/{{ domain }}/tokens' target='_blank'>Usable Tokens</a>-->
+            <button id='submit' type='submit' class='btn btn-primary'>Submit</button>
+    </form>
+    <p>{{ message }}</p>
+</body>
+</html>
