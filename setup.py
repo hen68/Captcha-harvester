@@ -43,7 +43,7 @@ class Setup:
 
 if __name__ == "__main__":
     try:
-        start = Setup("www.adidas.pl", '127.0.0.1', 5000, '6LeFl7YUAAAAABUeBMKmWQmNjrfLdppwNKqL26VR', 'recaptcha_v3')
+        start = Setup("www.vitkac.pl", '127.0.0.1', 5000, '6LfBVakUAAAAAArEAiLiOFpR0iUMo0kvIUvFy7i4', 'recaptcha_v2')
         start.initialize()
     except KeyboardInterrupt:
         pass
